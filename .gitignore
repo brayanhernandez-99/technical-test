@@ -1,0 +1,83 @@
+# Directorios de compilación
+/target/
+/out/
+build/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Archivos de dependencias (para Maven y Gradle)
+.mvn/
+.gradle/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.asc
+**/pom.xml.next
+**/pom.xml.backup
+**/pom.xml.versionsBackup
+**/target/
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Archivos generados por Spring Boot
+BOOT-INF/
+META-INF/
+*.jar
+*.war
+*.ear
+
+# Configuraciones temporales
+.env
+*.swp
+*.swo
+*.swn
+
+# Archivos de logs y reportes
+*.log
+logs/
+*.log.*
+hs_err_pid*
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA - NetBeans - VSCode###
+.idea
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# Archivos de base de datos en memoria (H2)
+/*.h2.db
+/*.mv.db
+/*.trace.db
+
+# Archivos de prueba y cobertura de código
+/test-output/
+coverage/
+jacoco/
+*.exec
+*.ec
+*.class
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
