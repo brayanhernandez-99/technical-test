@@ -68,6 +68,7 @@
 | 20               | 4386.52 | 9513.73  |
 
 ---
+  
 # OUTPUT EXPECTED
 ### Top 3 Empresas con Mayor Ganancia
 
@@ -90,4 +91,3 @@ JOIN campañas c ON e.id = c.empresa_id
 WHERE (c.ganancia - c.gastos) > 0
 ORDER BY profit DESC
 LIMIT 3;
-
